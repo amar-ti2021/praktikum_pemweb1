@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+</head>
+<body>
+    <h3>Black Goose Bistro | Pizza-on-Demand</h3>
+    <p>
+        our 12" wood-fired pizzas are available for delivery. <br>
+        Build your custom pizza and we'll deliver it within an hour
+    </p>
+    <br>
+    <form action="pesanan.html" method="POST">
+        <label>Name:</label><input type="text" name="customername"><br>
+        <br><label>Address:</label><input type="text" name="address"><br>
+        <br><label>Telephone Number:</label><input type="text" name="telephone"><br>
+        <br><label>Email:</label><input type="email" name="email"><br>
+        <br><label>Delivery Instruction</label><br>
+        <textarea name="instructions" maxlength="400" cols="50" rows="5"></textarea><br>
+        <h3>Design Your Dream Pizza</h3>
+        <p>Pizza Specs</p>
+        <label>Crust (choose one):</label><br>
+            <input type="radio" name="crust" value="white">Classic white <br>
+            <input type="radio" name="crust" value="Multigrain">Multigrain <br>
+            <input type="radio" name="crust" value="Cheese-stuffed crust">Cheese-stuffed crust <br>
+            <input type="radio" name="crust" value="Gluten-free">Gluten-free <br>
+            <label>Toppings (Choose as many as you want)</label><br>
+            <input type="checkbox" name="toppings[]" value="Red Sauce" checked>Red Sauce <br>
+            <input type="checkbox" name="toppings[]" value="White Sauce">White Sauce <br>
+            <input type="checkbox" name="toppings[]" value="Mozzarella">Mozzarella Cheese <br>
+            <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni <br>
+            <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms <br>
+            <input type="checkbox" name="toppings[]" value="Peppers">Peppers <br>
+            <input type="checkbox" name="toppings[]" value="Anchovies">Anchovies <br>
+        <label>Number <br> How Many pizzas </label><input type="number" name="numbers" min="1" max="6"><br>
+        <br><input type="submit" value="Bring me a pizza!"> <input type="reset">
+
+            
+    </form>
+</body>
+</html>
