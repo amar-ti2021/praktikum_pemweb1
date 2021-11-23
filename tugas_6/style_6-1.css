@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 15px;
+    height: 100%;
+    background-color: skyblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+[class*="row-"]{
+    background-size: cover;
+    border: 5px solid skyblue;
+}
+.row-1{
+    width: 33.33%;
+    height: 70%;
+}
+.row-2{
+    width: 20%;
+    height: 30%;
+}
+.grizz{
+    background-image: url('images/grizz.jpg');
+}
+.icebear{
+    background-image: url('images/icebear2.jpg');
+}
+.panda{
+    background-image: url('images/panda.png');
+}
+.webarebears1{
+    background-image: url('images/webarebears1.jpg');
+}
+.webarebears2{
+    background-image: url('images/webarebears2.jpg');
+}
+.webarebears3{
+    background-image: url('images/webarebears3.webp');
+}
+.webarebears4{
+    background-image: url('images/webarebears4.jpg');
+}
+.webarebears5{
+    background-image: url('images/webarebears5.jpg');
+}
